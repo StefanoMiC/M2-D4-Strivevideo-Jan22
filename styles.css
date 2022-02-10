@@ -60,3 +60,74 @@ body {
   font-size: 19px;
   line-height: 24px;
 }
+
+/* ADDED AFTER THE M2-D4 LESSON */
+.dropdown-menu {
+  background-color: #252e39;
+  padding: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #9ba7b5; /* changed later to have a highlight effect upon hovering */
+  border-bottom: 1px solid #333c47;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.dropdown-menu .last {
+  border-bottom: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white; /* added this later for getting the aformentioned effect */
+  background-color: #303a46;
+}
+
+.text-truncate {
+  vertical-align: middle;
+  max-width: 62px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.glass {
+  opacity: 0.6;
+}
+
+.dropdown .dropdown-toggle {
+  color: rgb(194, 194, 194);
+}
+
+a {
+  color: #01a3db;
+}
+
+a:hover {
+  color: #14b5eb;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .footer-logo {
+  display: inline-block;
+  width: 120px;
+  height: 48px;
+  background-image: url("../logo/strivevideo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+footer ul:last-of-type {
+  color: rgba(255, 255, 255, 0.45);
+}
