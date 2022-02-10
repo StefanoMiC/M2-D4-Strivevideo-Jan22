@@ -14,6 +14,15 @@
             box-sizing: border-box;
         }
 
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0
+        }
+
         body {
             margin: 0;
         }
@@ -23,6 +32,7 @@
             height: 50px;
             display: inline-block;
             vertical-align: top;
+            overflow: hidden;
         }
 
         .aqua {
@@ -32,13 +42,56 @@
         .crimson {
             background-color: crimson;
         }
+
+        .crimson img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .truncate {
+            max-width: 200px;
+        }
+
+        .truncate p {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .navbar {
+            height: 80px;
+            background-color: darkkhaki;
+        }
+
+        footer {
+
+            padding: 20px;
+            height: 200px;
+            color: white;
+            background-color: rgb(24, 24, 24);
+        }
     </style>
 </head>
 
 <body>
-    <div class="box aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos placeat deserunt autem
+
+    <nav class="navbar"></nav>
+    <main>
+        <h1>title</h1>
+        <p>description</p>
+        <button>simple button</button>
+    </main>
+    <footer> Strive school </footer>
+    <!-- <div class="box aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos placeat deserunt autem
         nam corrupti modi iusto? Laborum, rem. Debitis corrupti ab explicabo quae repudiandae error reprehenderit
-        mollitia veniam! Exercitationem, quasi.</div>
+        mollitia veniam! Exercitationem, quasi. -->
+
+    <!-- <div>
+            <img src="https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="room image">
+        </div> -->
+    <!-- </div>
     <div class="box crimson"><img
             src="https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
             alt="room image"></div>
@@ -52,8 +105,14 @@
         minus voluptatem?
     </p>
 
+    <div class="truncate">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae et delectus repellendus ipsum neque
+            beatae, cumque in, quia aperiam illo temporibus, quaerat laboriosam. Explicabo eligendi ab ad dolores
+            numquam.</p>
+    </div>
+
     <button>button</button>
-    <button>button</button>
+    <button>button</button> -->
 
 
 
